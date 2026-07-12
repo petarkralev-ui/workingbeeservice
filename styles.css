@@ -98,7 +98,10 @@ nav a:hover {
   position: relative;
   min-height: 82vh;
   display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(320px, 1fr);
   align-items: center;
+  gap: clamp(28px, 5vw, 72px);
+  padding: 104px clamp(22px, 6vw, 86px) 58px;
   overflow: hidden;
   background:
     radial-gradient(circle at 78% 38%, rgba(200, 162, 77, 0.22), transparent 28%),
@@ -116,17 +119,33 @@ nav a:hover {
 .hero-content {
   position: relative;
   width: min(650px, calc(100% - 44px));
-  margin-left: clamp(22px, 7vw, 108px);
-  padding-top: 84px;
   color: var(--green-900);
+  z-index: 1;
 }
 
 .hero-logo {
   display: block;
-  width: min(500px, 92vw);
+  width: min(420px, 92vw);
   height: auto;
-  margin: 0 0 22px;
+  margin: 0 0 26px;
   filter: drop-shadow(0 16px 30px rgba(14, 43, 32, 0.12));
+}
+
+.hero-media {
+  position: relative;
+  z-index: 1;
+  width: min(760px, 100%);
+  justify-self: end;
+}
+
+.hero-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: 63% center;
+  border: 1px solid rgba(200, 162, 77, 0.34);
+  box-shadow: 0 24px 60px rgba(14, 43, 32, 0.18);
 }
 
 .sr-only {
@@ -511,9 +530,11 @@ footer {
 
   .hero {
     min-height: 78vh;
+    grid-template-columns: 1fr;
+    padding-top: 98px;
   }
 
-  .hero img {
+  .hero-media img {
     object-position: 58% center;
   }
 
@@ -546,7 +567,6 @@ footer {
 
   .hero-content {
     width: min(100% - 32px, 540px);
-    margin-left: 16px;
   }
 
   h1 {
