@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" role="img" aria-labelledby="title">
+  <title id="title">Working Bee Service primary logo</title>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#c8a24d"/>
+      <stop offset="0.45" stop-color="#e6d5a3"/>
+      <stop offset="1" stop-color="#c8a24d"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="600" fill="#f7f3e8"/>
+  <path d="M338 58h244c20 0 36 16 36 36v8h52v85h-52v8c0 20-16 36-36 36H338c-20 0-36-16-36-36v-8h-52v-85h52v-8c0-20 16-36 36-36Z" fill="none" stroke="#c8a24d" stroke-width="5"/>
+  <path d="M378 116c-48-28-92-36-129-20 23 38 67 52 129 40m164-20c48-28 92-36 129-20-23 38-67 52-129 40" fill="none" stroke="#c8a24d" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="460" cy="143" rx="34" ry="48" fill="url(#gold)" stroke="#9b741f" stroke-width="4"/>
+  <path d="M431 132h58m-58 22h58m-50 22h42" stroke="#0e2b20" stroke-width="5" opacity="0.55"/>
+  <circle cx="460" cy="88" r="25" fill="url(#gold)" stroke="#9b741f" stroke-width="4"/>
+  <circle cx="448" cy="80" r="6" fill="#0e2b20"/>
+  <circle cx="472" cy="80" r="6" fill="#0e2b20"/>
+  <path d="M438 60c-15-22-26-34-42-42m86 42c15-22 26-34 42-42" fill="none" stroke="#9b741f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M425 40h70l-10 28h-50Z" fill="url(#gold)" stroke="#9b741f" stroke-width="4"/>
+  <text x="460" y="390" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="86" letter-spacing="18" fill="#0e2b20">WORKING BEE</text>
+  <line x1="230" y1="456" x2="340" y2="456" stroke="#c8a24d" stroke-width="4"/>
+  <line x1="580" y1="456" x2="690" y2="456" stroke="#c8a24d" stroke-width="4"/>
+  <text x="460" y="475" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" letter-spacing="28" fill="#0e2b20">SERVICE</text>
+  <text x="460" y="545" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="12" fill="#c8a24d">DILIGENT. RELIABLE. EXCEPTIONAL.</text>
+</svg>
